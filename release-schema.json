@@ -1,0 +1,31 @@
+{
+  "definitions": {
+    "Identifier": {
+      "properties": {
+        "schemeEntered": {
+          "title": "Scheme entered",
+          "description": "The name of the register that an organisation identifier is taken from, manually entered by the buyer. Expected to be the full name instead of the Organization Identifier Scheme code.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "noIdentifierRationale": {
+          "title": "No identifier rationale",
+          "description": "The rationale for not providing an organisation identifier.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "noIdentifierRationale.csv",
+          "openCodelist": false,
+          "enum": [
+            "partnership",
+            "soleTrader",
+            "notOnAnyRegister"
+          ]
+        }
+      }
+    }
+  }
+}

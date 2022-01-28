@@ -1,0 +1,20 @@
+{
+  "name": {
+    "en": "Party identifier additions"
+  },
+  "description": {
+    "en": "Allows manually entered organisation identifier scheme names or the rationale for not providing an identifier."
+  },
+  "documentationUrl": {
+    "en": "https://extensions.open-contracting.org/en/extensions/partyIdentifier_additions/main/"
+  },
+  "schemas": [
+    "release-schema.json"
+  ],
+  "codelists": [
+    "noIdentifierRationale.csv"
+  ],
+  "compatibility": [
+    "1.1"
+  ]
+}
